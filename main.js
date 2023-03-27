@@ -1,8 +1,9 @@
-let navLinks = document.querySelectorAll('.nav-link')
-let finalistsBtn = document.querySelector('.finalists')
-let homeBtn = document.querySelector('.home')
-let finalistsContainer = document.querySelector('.finalists_container')
-let mainContainer = document.querySelector('main')
+const navLinks = document.querySelectorAll('.nav-link')
+const finalistsBtn = document.querySelector('.finalists')
+const homeBtn = document.querySelector('.home')
+const finalistsContainer = document.querySelector('.finalists_container')
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
 const body = document.body
 
 const app = document.querySelector('#app')
@@ -22,66 +23,51 @@ function pageAboutFinalists () {
     body.style.overflow = 'auto'
     body.style.paddingRight = '0px'
 body.innerHTML = `
-<header class="container-fluid">
-<nav class="navbar navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="./img/logo.png" alt="League Logo" />
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasDarkNavbar"
-      aria-controls="offcanvasDarkNavbar"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="offcanvas offcanvas-end text-bg-dark"
-      tabindex="-1"
-      id="offcanvasDarkNavbar"
-      aria-labelledby="offcanvasDarkNavbarLabel"
-    >
-      <div class="offcanvas-header">
-        <img
-          class="offcanvas-title"
-          src="./img/logo.png"
-          id="offcanvasDarkNavbarLabel"
-        />
-        <button
-          type="button"
-          class="btn-close btn-close-white"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html"
-              >HOME</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link release" href="http://theworldputtingleague.com/PLN_Press%20Release_WorldPuttingLeague_22823.pdf">PRESS RELEASE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active finalists" href="#">TOP 8 FINALISTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">DAY 1 RESULTS </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">DAY 2 RESULTS</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
-</header>
+<header id="header" class="container-fluid">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="" srcset="">
+               </div>
+               <ul class="nav-menu">
+                <li class="nav-item"> 
+                    <i class="fa fa-home fa-2x"></i>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-circle-info fa-2x"></i>
+                    <a href="#" class="nav-link">Press release</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-medal fa-2x"></i>
+                    <a href="#" class="nav-link finalists active">Top 8 finalists</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-list fa-2x"></i>
+                    <a href="#" class="nav-link">Day 1 results</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-list fa-2x"></i>
+                    <a href="#" class="nav-link">Day 2 results</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-exclamation fa-2x"></i>
+                    <a href="#" class="nav-link">Player application</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+           
+
+            </div>
+
+        </nav>
+
+
+    </header>
 <div class="header-bg">
 <div class="header-text">
   <h1>Gary Hester Wins Inaugural WPL Championship</h1>
@@ -208,9 +194,37 @@ body.innerHTML = `
 
 `
 
+
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+})
+
+document.querySelectorAll(('.nav-link')).forEach((link) => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active')
+        navMenu.classList.remove('active')
+    })
+})
+
+
 }
 
 
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+})
+
+document.querySelectorAll(('.nav-link')).forEach((link) => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active')
+        navMenu.classList.remove('active')
+    })
+})
 
 
 

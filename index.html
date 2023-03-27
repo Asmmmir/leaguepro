@@ -27,68 +27,50 @@
   </head>
   <body>
     <div id="app">
-    <header class="container-fluid">
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="./img/logo.png" alt="League Logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasDarkNavbar"
-            aria-controls="offcanvasDarkNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end text-bg-dark"
-            tabindex="-1"
-            id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <img
-                class="offcanvas-title"
-                src="./img/logo.png"
-                id="offcanvasDarkNavbarLabel"
-              />
-              <button
-                type="button"
-                class="btn-close btn-close-white"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+    <header id="header" class="container-fluid">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="" srcset="">
+               </div>
+            <ul class="nav-menu">
+                <li class="nav-item"> 
+                    <i class="fa fa-home fa-2x"></i>
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-circle-info fa-2x"></i>
+                    <a href="#" class="nav-link">Press release</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-medal fa-2x"></i>
+                    <a href="#" class="nav-link finalists">Top 8 finalists</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-list fa-2x"></i>
+                    <a href="#" class="nav-link">Day 1 results</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-list fa-2x"></i>
+                    <a href="#" class="nav-link">Day 2 results</a>
+                </li>
+                <li class="nav-item"> 
+                    <i class="fa-solid fa-exclamation fa-2x"></i>
+                    <a href="#" class="nav-link">Player application</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+           
+
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link home active" aria-current="page" href="index.html"
-                    >HOME</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link release" href="http://theworldputtingleague.com/PLN_Press%20Release_WorldPuttingLeague_22823.pdf">PRESS RELEASE</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link finalists" href="#">TOP 8 FINALISTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://theworldputtingleague.com/results22723.html">DAY 1 RESULTS </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://theworldputtingleague.com/results22823.html">DAY 2 RESULTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScwAOvIZ1MJZQLjuphzAbGjr2VIdInlbDUjWwHq59upIu6EHQ/viewform">PLAYER APPLICATION</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
+
+        </nav>
+
+
     </header>
     <div class="header-bg">
         <div class="header-text">
