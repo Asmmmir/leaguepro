@@ -29,32 +29,31 @@ body.innerHTML = `
                 <img src="img/logo.png" alt="" srcset="">
                </div>
                <ul class="nav-menu">
-                <li class="nav-item"> 
-                    <i class="fa fa-home fa-2x"></i>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item"> 
-                    <i class="fa-solid fa-circle-info fa-2x"></i>
-                    <a href="#" class="nav-link">Press release</a>
-                </li>
-                <li class="nav-item"> 
-                    <i class="fa-solid fa-medal fa-2x"></i>
-                    <a href="#" class="nav-link finalists active">Top 8 finalists</a>
-                </li>
-                <li class="nav-item"> 
-                    <i class="fa-solid fa-list fa-2x"></i>
-                    <a href="#" class="nav-link">Day 1 results</a>
-                </li>
-                <li class="nav-item"> 
-                    <i class="fa-solid fa-list fa-2x"></i>
-                    <a href="#" class="nav-link">Day 2 results</a>
-                </li>
-                <li class="nav-item"> 
-                    <i class="fa-solid fa-exclamation fa-2x"></i>
-                    <a href="#" class="nav-link">Player application</a>
-                </li>
-            </ul>
-
+               <li class="nav-item"> 
+                   <i class="fa fa-home fa-2x"></i>
+                   <a href="index.html" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item"> 
+                   <i class="fa-solid fa-circle-info fa-2x"></i>
+                   <a href="http://theworldputtingleague.com/PLN_Press%20Release_WorldPuttingLeague_22823.pdf" class="nav-link">Press release</a>
+               </li>
+               <li class="nav-item"> 
+                   <i class="fa-solid fa-medal fa-2x"></i>
+                   <a href="#" class="nav-link finalists active">Top 8 finalists</a>
+               </li>
+               <li class="nav-item"> 
+                   <i class="fa-solid fa-list fa-2x"></i>
+                   <a href="http://theworldputtingleague.com/results22723.html" class="nav-link">Day 1 results</a>
+               </li>
+               <li class="nav-item"> 
+                   <i class="fa-solid fa-list fa-2x"></i>
+                   <a href="http://theworldputtingleague.com/results22823.html" class="nav-link">Day 2 results</a>
+               </li>
+               <li class="nav-item"> 
+                   <i class="fa-solid fa-exclamation fa-2x"></i>
+                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScwAOvIZ1MJZQLjuphzAbGjr2VIdInlbDUjWwHq59upIu6EHQ/viewform" class="nav-link">Player application</a>
+               </li>
+           </ul>
             <div class="hamburger">
 
                 <span class="bar"></span>
