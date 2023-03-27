@@ -98,17 +98,6 @@ body.innerHTML = `
     <div class="col-md-6 col-lg-4 text-center">
       <div class="person">
         <div class="person-img">
-          <img src="img/finalists/alessi.png" alt="" width="100%" />
-        </div>
-        <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-4 text-center">
-      <div class="person">
-        <div class="person-img">
           <img src="img/finalists/graybeal.png" alt="" width="100%" />
         </div>
         <div class="person-descrip">
@@ -123,30 +112,8 @@ body.innerHTML = `
           <img src="img/finalists/hester.png" alt="" width="100%" />
         </div>
         <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-4 text-center">
-      <div class="person">
-        <div class="person-img">
-          <img src="img/finalists/inabenit.png" alt="" width="100%" />
-        </div>
-        <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-4 text-center">
-      <div class="person">
-        <div class="person-img">
-          <img src="img/finalists/mccaslin.png" alt="" width="100%" />
-        </div>
-        <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
+          <h4>Gary Hester</h4>
+          <span>2nd Seed</span>
         </div>
       </div>
     </div>
@@ -156,19 +123,8 @@ body.innerHTML = `
           <img src="img/finalists/newport.png" alt="" width="100%" />
         </div>
         <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-4 text-center">
-      <div class="person">
-        <div class="person-img">
-          <img src="img/finalists/prokopova.png" alt="" width="100%" />
-        </div>
-        <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
+          <h4>Greg Newport</h4>
+          <span>3rd Seed</span>
         </div>
       </div>
     </div>
@@ -178,8 +134,52 @@ body.innerHTML = `
           <img src="img/finalists/reeves.png" alt="" width="100%" />
         </div>
         <div class="person-descrip">
-          <h4>Joey Graybeal</h4>
-          <span>Top Seed</span>
+          <h4>Randy Reeves</h4>
+          <span>4th Seed</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 text-center">
+      <div class="person">
+        <div class="person-img">
+          <img src="img/finalists/mccaslin.png" alt="" width="100%" />
+        </div>
+        <div class="person-descrip">
+          <h4>Matt McCaslin</h4>
+          <span>5th Seed</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 text-center">
+      <div class="person">
+        <div class="person-img">
+          <img src="img/finalists/prokopova.png" alt="" width="100%" />
+        </div>
+        <div class="person-descrip">
+          <h4>Olivia Prokopova</h4>
+          <span>6th Seed</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 text-center">
+      <div class="person">
+        <div class="person-img">
+          <img src="img/finalists/alessi.png" alt="" width="100%" />
+        </div>
+        <div class="person-descrip">
+          <h4>Rick Alessi</h4>
+          <span>7th Seed</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 text-center">
+      <div class="person">
+        <div class="person-img">
+          <img src="img/finalists/inabenit.png" alt="" width="100%" />
+        </div>
+        <div class="person-descrip">
+          <h4>Jeremy Inabenit</h4>
+          <span>8th Seed</span>
         </div>
       </div>
     </div>
