@@ -12,16 +12,83 @@ body {
     padding-right: 0px;
 }
 
+#header {
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #262626;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-menu {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: #ecdc14;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.nav-item i {
+    margin:0 20px;
+    color: #ecdc14;
+
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #ecdc14;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
 
 .active {
     color: #ecdc14 !important;
 }
 
-#header {
-    padding: 0;
-    position: fixed;
-    z-index: 10;
-}
 
 
 .header-bg {
@@ -123,8 +190,6 @@ body {
 }
 
 
-
-
 /* CLUB MEMBERS  */
 
 .club-images {
@@ -197,8 +262,6 @@ body {
 
 .champion-box h1 {
     font-weight: 700;
-
-
 }
 
 
@@ -207,15 +270,11 @@ footer {
     background-color: #2a312c;
     padding-top: 55px;
     color: white;
-
 }
 
 .footer-logo img {
     margin-bottom: 20px;
 }
-
-
-
 
 
 .person {
@@ -224,104 +283,27 @@ footer {
 
 
 
-header {
-    background-color: #262626;
-
-}
-
-li {
-    list-style: none;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-}
-
-.navbar {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 
 
-}
-
-.nav-menu {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1px;
-}
-
-.nav-branding {
-    font-size: 2rem;
-}
-
-.nav-link {
-    transition: 0.7s ease;
-}
-
-.nav-link:hover {
-    color: #ecdc14;
-}
-.nav-item {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-.nav-item i {
-    margin:0 20px;
-    color: #ecdc14;
-    
-}
-
-.nav-item a {
-    font-size: 20px;
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-
-}
-
-.bar {
-    background-color: #ecdc14;
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
-
-
+/* MEDIA  */
 
 
 @media (max-width: 1370px) {
     .team-img img {
         width: 80%;
     }
-
     .hamburger {
         display: block;
     }
-
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
-
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
     .nav-menu {
         position: absolute;
         left: -100%;
@@ -333,25 +315,17 @@ li {
         transition: 0.3s;
         padding: 0;
     }
-
     .nav-item {
         margin: 16px 0;
     }
-
     .nav-menu.active {
         left: 0;
-
     }
 
 }
 
-
-
 @media (max-width:991px) {
-
     .row {
         flex-direction: column;
-
     }
-
 }
