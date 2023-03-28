@@ -238,6 +238,10 @@ color: #262626;
     padding: 15px;
 }
 
+.team-img img {
+border: 3px solid #262626;
+}
+
 
 /* CLUB MEMBERS  */
 
