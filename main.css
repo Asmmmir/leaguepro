@@ -332,7 +332,6 @@ border: 3px solid #262626;
 
 
 footer {
-
     background-color: #2a312c;
     padding-top: 55px;
     color: white;
@@ -400,6 +399,8 @@ footer {
         flex-direction: column;
         gap: 15px;
     }
-    
+    .champion-box img {
+        width: 90%;
+    }
 
 }
