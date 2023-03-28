@@ -240,6 +240,7 @@ color: #262626;
 
 .team-img img {
 border: 3px solid #262626;
+border-radius: 5px;
 }
 
 
@@ -260,6 +261,7 @@ border: 3px solid #262626;
 
     .image {
     border: 3px solid #262626;
+    border-radius: 5px;
 
 }
 
